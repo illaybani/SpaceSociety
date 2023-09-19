@@ -1,0 +1,7 @@
+{
+  "dbConfig": {
+    "url": "mongodb+srv://illay789:Ii!12345@spacesocietycluster.ul9ul4o.mongodb.net/?retryWrites=true&w=majority"
+  },
+  "jwt": "780y94563hj2y45wopiunj",
+  "file": "staging"
+}

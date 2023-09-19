@@ -1,0 +1,36 @@
+{
+  "name": "space-society",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:server\" \"npm run start:front\"",
+    "start:server": "cd server && nodemon index.js",
+    "start:front": "cd front && npm start",
+    "start:staging": "concurrently \"npm run start:server:staging\" \"npm run start:front:staging\"",
+    "start:server:staging": "cd server && cross-env NODE_ENV=staging nodemon index.js",
+    "start:front:staging": "cd front && npm start",
+    "postinstall": "npm run install:all",
+    "install:all": "concurrently \"npm run install:front\" \"npm run install:server\"",
+    "install:front": "cd front && npm install --force",
+    "install:server": "cd server && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "js-cookie": "^3.0.5",
+    "mongodb": "^5.8.1",
+    "normalize-url": "^8.0.0",
+    "npm-run-all": "^4.1.5",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "concurrently": "^8.2.0",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.2.0",
+    "node-fetch": "^3.3.2"
+  }
+}

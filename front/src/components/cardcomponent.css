@@ -1,0 +1,67 @@
+.posts-display-btn-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0.5rem;
+}
+
+.post-item {
+    border: 1px solid transparent;
+    border-radius: 0.125rem;
+    box-shadow: 0 0 2.8rem rgba(0, 0, 0, .09);
+    transition: .5s;
+    position: relative;
+    background-color: white;
+}
+
+.post-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+.items-link {
+    transition: transform 0.3s ease-in-out;
+    background-color: transparent;
+    color: #22302a;
+    border: none;
+}
+
+.items-link:hover {
+    transform: scale(1.3);
+}
+
+.heart-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.heart-icon:hover {
+    transform: scale(1.3);
+}
+
+
+.apply-now-btn {
+    margin-top: 4rem;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(9.3rem);
+    opacity: 0;
+    transition: 0.8s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.uploaded-image {
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+}
