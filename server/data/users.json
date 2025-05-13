@@ -1,48 +1,18 @@
 [
   {
-    "_id": "64e5fe841ad452861a528001",
+    "_id": "682343e95e191e5ea0248b68",
     "name": {
-      "firstName": "Riki",
-      "lastName": "Shimony",
-      "_id": "64e5fe841ad452861a528002"
+      "firstName": "Ben",
+      "lastName": "Gili",
+      "_id": "682343e95e191e5ea0248b69"
     },
     "phoneNumber": "",
-    "email": "riki@gmail.com",
-    "password": "Bb!12345",
-    "image": {
-      "url": "https://i.pinimg.com/236x/06/07/fe/0607feae6b75b6a4682c6723b2185efb.jpg",
-      "_id": "64e7b38f8334fa958e047edd"
-    },
-    "address": {
-      "state": "",
-      "country": "",
-      "city": "",
-      "street": "",
-      "houseNumber": "",
-      "zip": "",
-      "_id": "64e5fe841ad452861a528004"
-    },
-    "gender": "",
-    "followers": [],
-    "following": [],
-    "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:45:40",
-    "createdAt": "23/08/2023, 15:41:40"
-  },
-  {
-    "_id": "64e749293307e2c99ee3ce69",
-    "name": {
-      "firstName": "Admin",
-      "lastName": "User",
-      "_id": "64e7b40e1d29aba3f0d35a8c"
-    },
-    "phoneNumber": "",
-    "email": "admin@gmail.com",
+    "email": "ben@gmail.com",
     "password": "Aa!12345",
     "image": {
-      "url": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+      "url": "https://i.pinimg.com/236x/06/07/fe/0607feae6b75b6a4682c6723b2185efb.jpg",
       "alt": "loading..",
-      "_id": "64e749293307e2c99ee3ce6b"
+      "_id": "682343e95e191e5ea0248b6a"
     },
     "address": {
       "state": "",
@@ -51,294 +21,305 @@
       "street": "",
       "houseNumber": "",
       "zip": "",
-      "_id": "64e7b40e1d29aba3f0d35a8d"
+      "_id": "682343e95e191e5ea0248b6b"
     },
     "gender": "",
-    "followers": [],
-    "following": [],
-    "isAdmin": true,
-    "lastLoginTime": "17/09/2023, 17:27:52",
-    "createdAt": "24/08/2023, 15:12:25"
+    "followers": [
+      "682344075e191e5ea0248b6e",
+      "682344145e191e5ea0248b74",
+      "682344235e191e5ea0248b7a",
+      "682344395e191e5ea0248b80",
+      "682344575e191e5ea0248b86",
+      "6823447f5e191e5ea0248b98"
+    ],
+    "following": [
+      "682344575e191e5ea0248b86",
+      "682344235e191e5ea0248b7a",
+      "682344a95e191e5ea0248ba4",
+      "682344145e191e5ea0248b74"
+    ],
+    "isAdmin": false,
+    "lastLoginTime": "13/05/2025, 16:43:12",
+    "createdAt": "13/05/2025, 16:06:49"
   },
   {
-    "_id": "64e7a5308334fa958e047bf2",
+    "_id": "682344075e191e5ea0248b6e",
     "name": {
-      "firstName": "Ofek",
-      "lastName": "Nahal",
-      "_id": "64e7a6a28334fa958e047c69"
+      "firstName": "Adi",
+      "lastName": "Geler",
+      "_id": "682344075e191e5ea0248b6f"
     },
     "phoneNumber": "",
-    "email": "ofek@gmail.com",
-    "password": "Bb!12345",
+    "email": "adi@gmail.com",
+    "password": "Aa!12345",
     "image": {
       "url": "https://i.pinimg.com/236x/c5/56/35/c55635766078424d4aa2eb04d6c86f99.jpg",
-      "_id": "64e7aa698334fa958e047c7b"
+      "alt": "loading..",
+      "_id": "682344075e191e5ea0248b70"
     },
     "address": {
       "state": "",
       "country": "",
-      "city": "Herzliya",
-      "street": "",
-      "houseNumber": "",
-      "zip": "",
-      "_id": "64e7a6a28334fa958e047c6a"
-    },
-    "gender": "female",
-    "followers": [
-      "64e7a5528334fa958e047bfe",
-      "64e7a5648334fa958e047c04",
-      "64e7a5888334fa958e047c10"
-    ],
-    "following": [
-      "64e7a5528334fa958e047bfe",
-      "64e7a5888334fa958e047c10",
-      "64e7a5e88334fa958e047c3a"
-    ],
-    "isAdmin": false,
-    "lastLoginTime": "17/09/2023, 17:25:08",
-    "createdAt": "24/08/2023, 21:45:04"
-  },
-  {
-    "_id": "64e7a5418334fa958e047bf8",
-    "name": {
-      "firstName": "Arik",
-      "lastName": "Ori",
-      "_id": "64e7ab208334fa958e047c8b"
-    },
-    "phoneNumber": "0542332545",
-    "email": "arik@gmail.com",
-    "password": "Bb!12345",
-    "image": {
-      "url": "https://i.pinimg.com/236x/2f/b3/90/2fb390a4db0ad35b7008beed89d3daec.jpg",
-      "_id": "64e7ab2d8334fa958e047c91"
-    },
-    "address": {
-      "state": "California",
-      "country": "USA",
       "city": "",
       "street": "",
       "houseNumber": "",
       "zip": "",
-      "_id": "64e7ab208334fa958e047c8c"
+      "_id": "682344075e191e5ea0248b71"
     },
-    "gender": "male",
+    "gender": "",
     "followers": [
-      "64e7a5968334fa958e047c16",
-      "64e7a5b48334fa958e047c22",
-      "64e7a5c68334fa958e047c28"
+      "682344145e191e5ea0248b74",
+      "682344235e191e5ea0248b7a",
+      "6823447f5e191e5ea0248b98"
+    ],
+    "following": [
+      "682343e95e191e5ea0248b68"
+    ],
+    "isAdmin": false,
+    "lastLoginTime": "13/05/2025, 16:13:55",
+    "createdAt": "13/05/2025, 16:07:19"
+  },
+  {
+    "_id": "682344145e191e5ea0248b74",
+    "name": {
+      "firstName": "Libi",
+      "lastName": "Koral",
+      "_id": "682344145e191e5ea0248b75"
+    },
+    "phoneNumber": "",
+    "email": "libi@gmail.com",
+    "password": "Aa!12345",
+    "image": {
+      "url": "https://i.pinimg.com/236x/2f/b3/90/2fb390a4db0ad35b7008beed89d3daec.jpg",
+      "alt": "loading..",
+      "_id": "682344145e191e5ea0248b76"
+    },
+    "address": {
+      "state": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zip": "",
+      "_id": "682344145e191e5ea0248b77"
+    },
+    "gender": "",
+    "followers": [
+      "682343e95e191e5ea0248b68",
+      "682344575e191e5ea0248b86"
+    ],
+    "following": [
+      "682344575e191e5ea0248b86",
+      "682344075e191e5ea0248b6e",
+      "682343e95e191e5ea0248b68"
+    ],
+    "isAdmin": false,
+    "lastLoginTime": "13/05/2025, 16:16:23",
+    "createdAt": "13/05/2025, 16:07:32"
+  },
+  {
+    "_id": "682344235e191e5ea0248b7a",
+    "name": {
+      "firstName": "Moshe",
+      "lastName": "Ben",
+      "_id": "682344235e191e5ea0248b7b"
+    },
+    "phoneNumber": "",
+    "email": "moshe@gmail.com",
+    "password": "Aa!12345",
+    "image": {
+      "url": "https://i.pinimg.com/236x/82/ea/3f/82ea3ff94acf9f9bef1fea011d6b7c8f.jpg",
+      "alt": "loading..",
+      "_id": "682344235e191e5ea0248b7c"
+    },
+    "address": {
+      "state": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zip": "",
+      "_id": "682344235e191e5ea0248b7d"
+    },
+    "gender": "",
+    "followers": [
+      "682343e95e191e5ea0248b68",
+      "682344395e191e5ea0248b80",
+      "6823446a5e191e5ea0248b8c"
+    ],
+    "following": [
+      "682343e95e191e5ea0248b68",
+      "682344075e191e5ea0248b6e",
+      "682344775e191e5ea0248b92",
+      "6823446a5e191e5ea0248b8c"
+    ],
+    "isAdmin": false,
+    "lastLoginTime": "13/05/2025, 16:17:19",
+    "createdAt": "13/05/2025, 16:07:47"
+  },
+  {
+    "_id": "682344395e191e5ea0248b80",
+    "name": {
+      "firstName": "Peleg",
+      "lastName": "Zarfati",
+      "_id": "682344395e191e5ea0248b81"
+    },
+    "phoneNumber": "",
+    "email": "peleg@gmail.com",
+    "password": "Aa!12345",
+    "image": {
+      "url": "https://i.pinimg.com/236x/09/2e/66/092e668720e589c088d1578ac35f1b2f.jpg",
+      "alt": "loading..",
+      "_id": "682344395e191e5ea0248b82"
+    },
+    "address": {
+      "state": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zip": "",
+      "_id": "682344395e191e5ea0248b83"
+    },
+    "gender": "",
+    "followers": [
+      "682344a95e191e5ea0248ba4",
+      "682344be5e191e5ea0248baa"
+    ],
+    "following": [
+      "682343e95e191e5ea0248b68",
+      "682344be5e191e5ea0248baa",
+      "682344235e191e5ea0248b7a"
+    ],
+    "isAdmin": false,
+    "lastLoginTime": "13/05/2025, 16:18:07",
+    "createdAt": "13/05/2025, 16:08:09"
+  },
+  {
+    "_id": "682344575e191e5ea0248b86",
+    "name": {
+      "firstName": "Yotam",
+      "lastName": "Yaniv",
+      "_id": "682344575e191e5ea0248b87"
+    },
+    "phoneNumber": "",
+    "email": "yotam@gmail.com",
+    "password": "Aa!12345",
+    "image": {
+      "url": "https://i.pinimg.com/236x/10/3f/54/103f5410fce00f502d25ccbf3a3a2f97.jpg",
+      "alt": "loading..",
+      "_id": "682344575e191e5ea0248b88"
+    },
+    "address": {
+      "state": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zip": "",
+      "_id": "682344575e191e5ea0248b89"
+    },
+    "gender": "",
+    "followers": [
+      "682343e95e191e5ea0248b68",
+      "682344145e191e5ea0248b74",
+      "6823446a5e191e5ea0248b8c"
+    ],
+    "following": [
+      "682343e95e191e5ea0248b68",
+      "6823446a5e191e5ea0248b8c",
+      "682344145e191e5ea0248b74"
+    ],
+    "isAdmin": false,
+    "lastLoginTime": "13/05/2025, 16:19:10",
+    "createdAt": "13/05/2025, 16:08:39"
+  },
+  {
+    "_id": "6823446a5e191e5ea0248b8c",
+    "name": {
+      "firstName": "Rakefet",
+      "lastName": "Livnat",
+      "_id": "6823446a5e191e5ea0248b8d"
+    },
+    "phoneNumber": "",
+    "email": "rakefet@gmail.com",
+    "password": "Aa!12345",
+    "image": {
+      "url": "https://i.pinimg.com/236x/d9/9c/46/d99c46c56a34df5e29b2e84ae5da3830.jpg",
+      "alt": "loading..",
+      "_id": "6823446a5e191e5ea0248b8e"
+    },
+    "address": {
+      "state": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zip": "",
+      "_id": "6823446a5e191e5ea0248b8f"
+    },
+    "gender": "",
+    "followers": [
+      "682344235e191e5ea0248b7a",
+      "682344575e191e5ea0248b86",
+      "682344a95e191e5ea0248ba4",
+      "682344be5e191e5ea0248baa"
+    ],
+    "following": [
+      "682344575e191e5ea0248b86",
+      "682344235e191e5ea0248b7a"
+    ],
+    "isAdmin": false,
+    "lastLoginTime": "13/05/2025, 16:20:05",
+    "createdAt": "13/05/2025, 16:08:58"
+  },
+  {
+    "_id": "682344775e191e5ea0248b92",
+    "name": {
+      "firstName": "Sahar",
+      "lastName": "Sela",
+      "_id": "682344775e191e5ea0248b93"
+    },
+    "phoneNumber": "",
+    "email": "shahar@gmail.com",
+    "password": "Aa!12345",
+    "image": {
+      "url": "https://i.pinimg.com/236x/6b/34/9e/6b349eb0001ec793c5248aa802d7c049.jpg",
+      "alt": "loading..",
+      "_id": "682344775e191e5ea0248b94"
+    },
+    "address": {
+      "state": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "houseNumber": "",
+      "zip": "",
+      "_id": "682344775e191e5ea0248b95"
+    },
+    "gender": "",
+    "followers": [
+      "682344235e191e5ea0248b7a"
     ],
     "following": [],
     "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:10:00",
-    "createdAt": "24/08/2023, 21:45:21"
+    "lastLoginTime": "13/05/2025, 16:21:02",
+    "createdAt": "13/05/2025, 16:09:11"
   },
   {
-    "_id": "64e7a5528334fa958e047bfe",
+    "_id": "6823447f5e191e5ea0248b98",
     "name": {
-      "firstName": "Adam",
-      "lastName": "Tova",
-      "_id": "64e7a5528334fa958e047bff"
+      "firstName": "Nir",
+      "lastName": "Dov",
+      "_id": "6823447f5e191e5ea0248b99"
     },
     "phoneNumber": "",
-    "email": "adam@gmail.com",
-    "password": "Bb!12345",
-    "image": {
-      "url": "https://i.pinimg.com/236x/82/ea/3f/82ea3ff94acf9f9bef1fea011d6b7c8f.jpg",
-      "_id": "64e7b34a8334fa958e047ed1"
-    },
-    "address": {
-      "state": "",
-      "country": "",
-      "city": "",
-      "street": "",
-      "houseNumber": "",
-      "zip": "",
-      "_id": "64e7a5528334fa958e047c01"
-    },
-    "gender": "",
-    "followers": [
-      "64e7a5308334fa958e047bf2",
-      "64e7a5648334fa958e047c04",
-      "64e7a5a68334fa958e047c1c",
-      "64e7a5f98334fa958e047c40"
-    ],
-    "following": [
-      "64e7a5308334fa958e047bf2",
-      "64e7a5968334fa958e047c16",
-      "64e7a57b8334fa958e047c0a",
-      "64e7a5a68334fa958e047c1c"
-    ],
-    "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:44:41",
-    "createdAt": "24/08/2023, 21:45:38"
-  },
-  {
-    "_id": "64e7a5648334fa958e047c04",
-    "name": {
-      "firstName": "Itzhak",
-      "lastName": "Niv",
-      "_id": "64e7a5648334fa958e047c05"
-    },
-    "phoneNumber": "",
-    "email": "itzhak@gmail.com",
-    "password": "Bb!12345",
-    "image": {
-      "url": "https://i.pinimg.com/236x/09/2e/66/092e668720e589c088d1578ac35f1b2f.jpg",
-      "_id": "64e7abcf8334fa958e047cc4"
-    },
-    "address": {
-      "state": "",
-      "country": "",
-      "city": "",
-      "street": "",
-      "houseNumber": "",
-      "zip": "",
-      "_id": "64e7a5648334fa958e047c07"
-    },
-    "gender": "",
-    "followers": [
-      "64e7a57b8334fa958e047c0a",
-      "64e7a5888334fa958e047c10",
-      "64e7a5d08334fa958e047c2e",
-      "64e7a60f8334fa958e047c46"
-    ],
-    "following": [
-      "64e7a5528334fa958e047bfe",
-      "64e7a5308334fa958e047bf2",
-      "64e7a5f98334fa958e047c40",
-      "64e7a5c68334fa958e047c28"
-    ],
-    "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:13:07",
-    "createdAt": "24/08/2023, 21:45:56"
-  },
-  {
-    "_id": "64e7a57b8334fa958e047c0a",
-    "name": {
-      "firstName": "Sigalit",
-      "lastName": "Idan",
-      "_id": "64e7ac408334fa958e047cf2"
-    },
-    "phoneNumber": "",
-    "email": "sigalit@gmail.com",
-    "password": "Bb!12345",
-    "image": {
-      "url": "https://i.pinimg.com/236x/10/3f/54/103f5410fce00f502d25ccbf3a3a2f97.jpg",
-      "_id": "64e7ac4d8334fa958e047cf8"
-    },
-    "address": {
-      "state": "",
-      "country": "",
-      "city": "",
-      "street": "",
-      "houseNumber": "",
-      "zip": "",
-      "_id": "64e7ac408334fa958e047cf3"
-    },
-    "gender": "female",
-    "followers": [
-      "64e7a5528334fa958e047bfe",
-      "64e7a5e88334fa958e047c3a"
-    ],
-    "following": [
-      "64e7a5648334fa958e047c04",
-      "64e7a60f8334fa958e047c46",
-      "64e7a5d08334fa958e047c2e"
-    ],
-    "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:15:00",
-    "createdAt": "24/08/2023, 21:46:19"
-  },
-  {
-    "_id": "64e7a5888334fa958e047c10",
-    "name": {
-      "firstName": "Osher",
-      "lastName": "Nili",
-      "_id": "64e7a5888334fa958e047c11"
-    },
-    "phoneNumber": "",
-    "email": "osher@gmail.com",
-    "password": "Bb!12345",
-    "image": {
-      "url": "https://i.pinimg.com/236x/d9/9c/46/d99c46c56a34df5e29b2e84ae5da3830.jpg",
-      "_id": "64e7ad1a8334fa958e047d65"
-    },
-    "address": {
-      "state": "",
-      "country": "",
-      "city": "",
-      "street": "",
-      "houseNumber": "",
-      "zip": "",
-      "_id": "64e7a5888334fa958e047c13"
-    },
-    "gender": "",
-    "followers": [
-      "64e7a5308334fa958e047bf2",
-      "64e7a5b48334fa958e047c22",
-      "64e7a5d08334fa958e047c2e",
-      "64e7a60f8334fa958e047c46"
-    ],
-    "following": [
-      "64e7a5a68334fa958e047c1c",
-      "64e7a5648334fa958e047c04",
-      "64e7a60f8334fa958e047c46",
-      "64e7a5308334fa958e047bf2",
-      "64e7a5c68334fa958e047c28"
-    ],
-    "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:17:29",
-    "createdAt": "24/08/2023, 21:46:32"
-  },
-  {
-    "_id": "64e7a5968334fa958e047c16",
-    "name": {
-      "firstName": "Netta",
-      "lastName": "Livna",
-      "_id": "64e7a5968334fa958e047c17"
-    },
-    "phoneNumber": "",
-    "email": "netta@gmail.com",
-    "password": "Bb!12345",
-    "image": {
-      "url": "https://i.pinimg.com/236x/6b/34/9e/6b349eb0001ec793c5248aa802d7c049.jpg",
-      "_id": "64e7adcf8334fa958e047d93"
-    },
-    "address": {
-      "state": "",
-      "country": "",
-      "city": "",
-      "street": "",
-      "houseNumber": "",
-      "zip": "",
-      "_id": "64e7a5968334fa958e047c19"
-    },
-    "gender": "",
-    "followers": [
-      "64e7a5528334fa958e047bfe",
-      "64e7a5a68334fa958e047c1c"
-    ],
-    "following": [
-      "64e7a5418334fa958e047bf8",
-      "64e7a5a68334fa958e047c1c"
-    ],
-    "isAdmin": false,
-    "lastLoginTime": "17/09/2023, 17:23:18",
-    "createdAt": "24/08/2023, 21:46:46"
-  },
-  {
-    "_id": "64e7a5a68334fa958e047c1c",
-    "name": {
-      "firstName": "Asa",
-      "lastName": "Dalia",
-      "_id": "64e7a5a68334fa958e047c1d"
-    },
-    "phoneNumber": "",
-    "email": "asa@gmail.com",
-    "password": "Bb!12345",
+    "email": "nir@gmail.com",
+    "password": "Aa!12345",
     "image": {
       "url": "https://i.pinimg.com/236x/67/85/1e/67851e7a7d7e7b7c9e501ff5f3404eac.jpg",
-      "_id": "64e7ae248334fa958e047db2"
+      "alt": "loading..",
+      "_id": "6823447f5e191e5ea0248b9a"
     },
     "address": {
       "state": "",
@@ -347,36 +328,32 @@
       "street": "",
       "houseNumber": "",
       "zip": "",
-      "_id": "64e7a5a68334fa958e047c1f"
+      "_id": "6823447f5e191e5ea0248b9b"
     },
     "gender": "",
-    "followers": [
-      "64e7a5528334fa958e047bfe",
-      "64e7a5888334fa958e047c10",
-      "64e7a5968334fa958e047c16",
-      "64e7a5dd8334fa958e047c34"
-    ],
+    "followers": [],
     "following": [
-      "64e7a5968334fa958e047c16",
-      "64e7a5528334fa958e047bfe"
+      "682343e95e191e5ea0248b68",
+      "682344075e191e5ea0248b6e"
     ],
     "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:22:21",
-    "createdAt": "24/08/2023, 21:47:02"
+    "lastLoginTime": "13/05/2025, 16:21:39",
+    "createdAt": "13/05/2025, 16:09:19"
   },
   {
-    "_id": "64e7a5b48334fa958e047c22",
+    "_id": "6823448c5e191e5ea0248b9e",
     "name": {
-      "firstName": "Noa",
-      "lastName": "Peleg",
-      "_id": "64e7a5b48334fa958e047c23"
+      "firstName": "Yoav",
+      "lastName": "Poleg",
+      "_id": "6823448c5e191e5ea0248b9f"
     },
     "phoneNumber": "",
-    "email": "noa@gmail.com",
-    "password": "Bb!12345",
+    "email": "yoav@gmail.com",
+    "password": "Aa!12345",
     "image": {
       "url": "https://i.pinimg.com/236x/f9/8e/ff/f98eff8605f277784e2c459ea410f99b.jpg",
-      "_id": "64e7ae608334fa958e047dc0"
+      "alt": "loading..",
+      "_id": "6823448c5e191e5ea0248ba0"
     },
     "address": {
       "state": "",
@@ -385,32 +362,29 @@
       "street": "",
       "houseNumber": "",
       "zip": "",
-      "_id": "64e7a5b48334fa958e047c25"
+      "_id": "6823448c5e191e5ea0248ba1"
     },
     "gender": "",
     "followers": [],
-    "following": [
-      "64e7a5418334fa958e047bf8",
-      "64e7a5888334fa958e047c10",
-      "64e7a5f98334fa958e047c40"
-    ],
+    "following": [],
     "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:23:56",
-    "createdAt": "24/08/2023, 21:47:16"
+    "lastLoginTime": "13/05/2025, 16:22:33",
+    "createdAt": "13/05/2025, 16:09:32"
   },
   {
-    "_id": "64e7a5c68334fa958e047c28",
+    "_id": "682344a95e191e5ea0248ba4",
     "name": {
-      "firstName": "Reut",
-      "lastName": "Niv",
-      "_id": "64e7a5c68334fa958e047c29"
+      "firstName": "Sela",
+      "lastName": "Noy",
+      "_id": "682344a95e191e5ea0248ba5"
     },
     "phoneNumber": "",
-    "email": "reut@gmail.com",
-    "password": "Bb!12345",
+    "email": "sela@gmail.com",
+    "password": "Aa!12345",
     "image": {
       "url": "https://i.pinimg.com/236x/42/7e/bf/427ebf79bd5dc19ec56db04c74451564.jpg",
-      "_id": "64e7aea58334fa958e047de6"
+      "alt": "loading..",
+      "_id": "682344a95e191e5ea0248ba6"
     },
     "address": {
       "state": "",
@@ -419,33 +393,35 @@
       "street": "",
       "houseNumber": "",
       "zip": "",
-      "_id": "64e7a5c68334fa958e047c2b"
+      "_id": "682344a95e191e5ea0248ba7"
     },
     "gender": "",
     "followers": [
-      "64e7a5648334fa958e047c04",
-      "64e7a5888334fa958e047c10"
+      "682343e95e191e5ea0248b68"
     ],
     "following": [
-      "64e7a5418334fa958e047bf8"
+      "682344395e191e5ea0248b80",
+      "6823446a5e191e5ea0248b8c",
+      "682344be5e191e5ea0248baa"
     ],
     "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:25:03",
-    "createdAt": "24/08/2023, 21:47:34"
+    "lastLoginTime": "13/05/2025, 16:23:17",
+    "createdAt": "13/05/2025, 16:10:01"
   },
   {
-    "_id": "64e7a5d08334fa958e047c2e",
+    "_id": "682344be5e191e5ea0248baa",
     "name": {
-      "firstName": "Rotem",
-      "lastName": "Tal",
-      "_id": "64e7a5d08334fa958e047c2f"
+      "firstName": "Noy",
+      "lastName": "Rakefet",
+      "_id": "682344be5e191e5ea0248bab"
     },
     "phoneNumber": "",
-    "email": "rotem@gmail.com",
-    "password": "Bb!12345",
+    "email": "noy@gmail.com",
+    "password": "Aa!12345",
     "image": {
-      "url": "https://i.pinimg.com/236x/e0/0c/d0/e00cd0ac27f3482929cd6309037f9002.jpg",
-      "_id": "64e7af358334fa958e047dfe"
+      "url": "\"https://i.pinimg.com/236x/80/77/e5/8077e53d460d3a3904bed22c31099d4c.jpg",
+      "alt": "loading..",
+      "_id": "682344be5e191e5ea0248bac"
     },
     "address": {
       "state": "",
@@ -454,157 +430,19 @@
       "street": "",
       "houseNumber": "",
       "zip": "",
-      "_id": "64e7a5d08334fa958e047c31"
+      "_id": "682344be5e191e5ea0248bad"
     },
     "gender": "",
     "followers": [
-      "64e7a57b8334fa958e047c0a"
+      "682344395e191e5ea0248b80",
+      "682344a95e191e5ea0248ba4"
     ],
     "following": [
-      "64e7a5648334fa958e047c04",
-      "64e7a5888334fa958e047c10"
+      "682344395e191e5ea0248b80",
+      "6823446a5e191e5ea0248b8c"
     ],
     "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:27:28",
-    "createdAt": "24/08/2023, 21:47:44"
-  },
-  {
-    "_id": "64e7a5dd8334fa958e047c34",
-    "name": {
-      "firstName": "Omer",
-      "lastName": "Yaniv",
-      "_id": "64e7a5dd8334fa958e047c35"
-    },
-    "phoneNumber": "",
-    "email": "omer@gmail.com",
-    "password": "Bb!12345",
-    "image": {
-      "url": "https://i.pinimg.com/236x/58/6d/3c/586d3cfc2d0c7eeb88b60498f4ee95cb.jpg",
-      "_id": "64e7af888334fa958e047e1a"
-    },
-    "address": {
-      "state": "",
-      "country": "",
-      "city": "",
-      "street": "",
-      "houseNumber": "",
-      "zip": "",
-      "_id": "64e7a5dd8334fa958e047c37"
-    },
-    "gender": "",
-    "followers": [],
-    "following": [
-      "64e7a5e88334fa958e047c3a",
-      "64e7a5a68334fa958e047c1c"
-    ],
-    "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:28:36",
-    "createdAt": "24/08/2023, 21:47:57"
-  },
-  {
-    "_id": "64e7a5e88334fa958e047c3a",
-    "name": {
-      "firstName": "Mika",
-      "lastName": "Regev",
-      "_id": "64e7a5e88334fa958e047c3b"
-    },
-    "phoneNumber": "",
-    "email": "mika@gmail.com",
-    "password": "Bb!12345",
-    "image": {
-      "url": "https://i.pinimg.com/236x/80/77/e5/8077e53d460d3a3904bed22c31099d4c.jpg",
-      "_id": "64e7afea8334fa958e047e3b"
-    },
-    "address": {
-      "state": "",
-      "country": "",
-      "city": "",
-      "street": "",
-      "houseNumber": "",
-      "zip": "",
-      "_id": "64e7a5e88334fa958e047c3d"
-    },
-    "gender": "",
-    "followers": [
-      "64e7a5308334fa958e047bf2",
-      "64e7a5dd8334fa958e047c34"
-    ],
-    "following": [
-      "64e7a57b8334fa958e047c0a"
-    ],
-    "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:30:21",
-    "createdAt": "24/08/2023, 21:48:08"
-  },
-  {
-    "_id": "64e7a5f98334fa958e047c40",
-    "name": {
-      "firstName": "Ron",
-      "lastName": "Peleg",
-      "_id": "64e7a5f98334fa958e047c41"
-    },
-    "phoneNumber": "",
-    "email": "ron@gmail.com",
-    "password": "Bb!12345",
-    "image": {
-      "url": "https://i.pinimg.com/236x/b7/77/08/b77708b26a223711ac887d9f381463a9.jpg",
-      "_id": "64e7b0fe8334fa958e047e58"
-    },
-    "address": {
-      "state": "",
-      "country": "",
-      "city": "",
-      "street": "",
-      "houseNumber": "",
-      "zip": "",
-      "_id": "64e7a5f98334fa958e047c43"
-    },
-    "gender": "",
-    "followers": [
-      "64e7a5648334fa958e047c04",
-      "64e7a5b48334fa958e047c22"
-    ],
-    "following": [
-      "64e7a5528334fa958e047bfe"
-    ],
-    "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:34:19",
-    "createdAt": "24/08/2023, 21:48:25"
-  },
-  {
-    "_id": "64e7a60f8334fa958e047c46",
-    "name": {
-      "firstName": "Avigail",
-      "lastName": "Devora",
-      "_id": "64e7a60f8334fa958e047c47"
-    },
-    "phoneNumber": "",
-    "email": "avigail@gmail.com",
-    "password": "Bb!12345",
-    "image": {
-      "url": "https://i.pinimg.com/236x/32/21/17/3221176f7ca8dbfdd648cdaf6d1f4b71.jpg",
-      "_id": "64e7b1a08334fa958e047e7d"
-    },
-    "address": {
-      "state": "",
-      "country": "",
-      "city": "",
-      "street": "",
-      "houseNumber": "",
-      "zip": "",
-      "_id": "64e7a60f8334fa958e047c49"
-    },
-    "gender": "",
-    "followers": [
-      "64e7a57b8334fa958e047c0a",
-      "64e7a5888334fa958e047c10"
-    ],
-    "following": [
-      "64e7a5648334fa958e047c04",
-      "64e7a5888334fa958e047c10"
-    ],
-    "isAdmin": false,
-    "lastLoginTime": "24/08/2023, 22:37:06",
-    "createdAt": "24/08/2023, 21:48:47"
+    "lastLoginTime": "13/05/2025, 16:23:56",
+    "createdAt": "13/05/2025, 16:10:22"
   }
 ]

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run start:server\" \"npm run start:front\"",
+    "start": "concurrently \"npm run start:server:staging\" \"npm run start:front:staging\"",
     "start:server": "cd server && nodemon index.js",
     "start:front": "cd front && npm start",
     "start:staging": "concurrently \"npm run start:server:staging\" \"npm run start:front:staging\"",
