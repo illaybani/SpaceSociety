@@ -1,10 +1,10 @@
+require('dotenv').config();
 const config = require("config");
 const mongoose = require("mongoose");
 const chalk = require("chalk");
 
-const dbUrl = config.get("dbConfig.url");
-console.log(chalk.yellowBright.bold(dbUrl));
-console.log(chalk.yellowBright.bold(`Connecting to ${dbUrl}`));
+const dbUrl = process.env.MONGODB_URI || config.get("dbConfig.url");
+console.log(chalk.yellowBright.bold("Connecting to MongoDB"));
 
 const connectToDB = () => {
   return mongoose
