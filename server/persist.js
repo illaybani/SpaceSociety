@@ -2,7 +2,7 @@ require('dotenv').config();
 const MongoClient = require('mongodb').MongoClient;
 const fs = require('fs-extra');
 
-const MONGO_URI = process.env.MONGODB_URI;
+const MONGO_URI = "mongodb+srv://illay789:Ii!12345@spacesocietycluster.paedi7g.mongodb.net/"
 
 function formatDateToNiceString(dateString) {
     const dateObject = new Date(dateString);

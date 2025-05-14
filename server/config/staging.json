@@ -1,6 +1,6 @@
 {
   "dbConfig": {
-    "url": ""
+    "url": "mongodb+srv://illay789:Ii!12345@spacesocietycluster.paedi7g.mongodb.net/"
   },
   "jwt": "780y94563hj2y45wopiunj",
   "file": "staging"
